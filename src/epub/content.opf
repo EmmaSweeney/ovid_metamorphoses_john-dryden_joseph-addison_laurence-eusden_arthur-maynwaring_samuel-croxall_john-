@@ -28,28 +28,39 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Metamorphoses</dc:title>
 		<meta property="file-as" refines="#title">Metamorphoses</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Classical literature</dc:subject>
+		<dc:subject id="subject-2">Latin poetry -- Translations into English</dc:subject>
+		<dc:subject id="subject-3">Fables, Latin -- Translations into English</dc:subject>
+		<dc:subject id="subject-4">Metamorphosis -- Mythology -- Poetry</dc:subject>
+		<dc:subject id="subject-5">Mythology, Classical -- Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85026706</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-2">sh2008106713</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008103466</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008107712</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008107713</meta>
+		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<!-- transcription source & primary page scans -->
+		<dc:source>https://catalog.hathitrust.org/Record/100493538</dc:source>
+		<!-- secondary page scans -->
+		<dc:source>https://catalog.hathitrust.org/Record/001809312</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Metamorphoses</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/ovid_metamorphoses_john-dryden_joseph-addison_laurence-eusden_arthur-maynwaring_samuel-garth_nahum-tate_william-stonestreet_thomas-vernon_stephen-harvey_john-ozell_temple-stanyan_alexander-stopford-catcott_leonard-welsted</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/ovid_metamorphoses_john-dryden_joseph-addison_laurence-eusden_arthur-maynwaring_samuel-croxall_john-</meta>
 		<dc:creator id="author">Ovid</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Ovid</meta>
+		<meta property="se:name.person.full-name" refines="#author">Publius Ovidius Naso</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ovid</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79041738</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -104,7 +115,6 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-10">https://en.wikipedia.org/wiki/Samuel_Garth</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-10">http://id.loc.gov/authorities/names/n85024830</meta>
 		<meta property="role" refines="#translator-10" scheme="marc:relators">trl</meta>
-		<!-- __________________ -->
 		<dc:contributor id="translator-11">Nahum Tate</dc:contributor>
 		<meta property="file-as" refines="#translator-11">Tate, Nahum</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-11">https://en.wikipedia.org/wiki/Nahum_Tate</meta>
@@ -140,23 +150,21 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-18">https://en.wikipedia.org/wiki/Leonard_Welsted</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-18">http://id.loc.gov/authorities/names/n83206628</meta>
 		<meta property="role" refines="#translator-18" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Peter Paul Rubens</dc:contributor>
+		<meta property="file-as" refines="#artist">Rubens, Peter Paul</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Sir Peter Paul Rubens</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Peter_Paul_Rubens</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79055561</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
